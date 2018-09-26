@@ -1,3 +1,4 @@
+//
 var promise_fs = require('./promise-fs');
 var logging = require('./logging');
 

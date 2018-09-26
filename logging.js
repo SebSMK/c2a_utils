@@ -17,7 +17,7 @@ const logger = new winston.Logger({
     transports: [
         new winston.transports.File({
             level: 'debug',
-            filename: './pyr_converter.log',
+            filename: './c2a.log',
             handleExceptions: true,
             json: false,
             maxsize: 5242880, //5MB
